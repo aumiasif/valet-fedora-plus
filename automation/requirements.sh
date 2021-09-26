@@ -29,7 +29,7 @@ composer --version
 
 echo "Installing Valet linux plus for Fedora Globally"
 
-composer global require  aumiasif/valet-linux-plus-fedora
+composer global require  aumiasif/valet-fedora-plus
 
 echo "Adding path to .bashrc"
 
