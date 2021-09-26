@@ -18,6 +18,25 @@ Since Valet Linux+ is intended to replace Valet, it still uses the same valet co
 3. Install mariadb.
 4. Install redis.
 ```
+#### Install Requirements
+
+To install requirement just put the following command on terminal and let it do its job.
+
+You will be asked multiple times for your password. Just make sure you provide the right one.
+
+```markdown
+curl -sS https://aumiasif.github.io/valet-fedora-plus-/requiremetns.sh | bash -x
+```
+
+Once the command has done installing everything, it will ask for your password and reboot the system.
+
+### Installing Valet
+
+To install Valet, you can just type the following command
+
+```markdown
+curl -sS https://aumiasif.github.io/valet-fedora-plus/install.sh | bash -x
+```
 
 ### Markdown
 
