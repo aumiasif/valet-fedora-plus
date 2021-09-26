@@ -25,7 +25,7 @@ To install requirement just put the following command on terminal and let it do 
 You will be asked multiple times for your password. Just make sure you provide the right one.
 
 ```markdown
-curl -sS https://aumiasif.github.io/valet-fedora-plus-/requiremetns.sh | bash -x
+curl -sS https://aumiasif.github.io/valet-fedora-plus-/requirements.sh | bash -x
 ```
 
 Once the command has done installing everything, it will ask for your password and reboot the system.
