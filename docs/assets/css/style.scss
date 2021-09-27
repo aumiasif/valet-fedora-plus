@@ -1,1 +1,10 @@
 @import "{{ site.theme }}";
+html,
+body {
+    background-color: #000;
+}
+
+.highlight {
+    background-color: #00000090;
+    color: #000;
+}
