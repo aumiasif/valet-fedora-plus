@@ -1,5 +1,16 @@
 #!/bin/bash
 
+
+echo"
+██    ██  █████  ██      ███████ ████████     ███████ ███████ ██████   ██████  ██████   █████      ██████  ██      ██    ██ ███████ 
+██    ██ ██   ██ ██      ██         ██        ██      ██      ██   ██ ██    ██ ██   ██ ██   ██     ██   ██ ██      ██    ██ ██      
+██    ██ ███████ ██      █████      ██        █████   █████   ██   ██ ██    ██ ██████  ███████     ██████  ██      ██    ██ ███████ 
+ ██  ██  ██   ██ ██      ██         ██        ██      ██      ██   ██ ██    ██ ██   ██ ██   ██     ██      ██      ██    ██      ██ 
+  ████   ██   ██ ███████ ███████    ██        ██      ███████ ██████   ██████  ██   ██ ██   ██     ██      ███████  ██████  ███████ 
+"
+
+echo "We are going to install requirements now:"
+
 echo "Installing nss-tool, jq, xsel, php, Curl, redis and mariadb"
 
 sudo dnf install -y nss-tools jq xsel php-{cli,process,mbstring,mcrypt,xml,json,common,curl,opcache,readline,zip,pdo,gd,mysqlnd} redis redis-devel mariadb-server
