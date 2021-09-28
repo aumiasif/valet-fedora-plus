@@ -4,6 +4,6 @@
 
 # Valet Fedora Plus
 
-Valet Fedora+ is a development environment for Fedora Linux. No Vagrant, no Docker, no /etc/hosts file.  Since Valet Fedora+ is intended to replace Valet, it still uses the same valet command-line name. Any changes in its interface are documented below.
+Valet Fedora+ is a development environment for Fedora Linux. No Vagrant, no Docker, no /etc/hosts file.  Since Valet Fedora+ is intended to replace Valet, it still uses the same valet command-line name. Any changes in its interface are documented [here](https://aumiasif.github.io/valet-fedora-plus/).
 
 Valet Fedora Plus is based on valet linux plus, just targetted for Fedora users.
