@@ -5,6 +5,7 @@
 html,
 body {
     background-color: #000;
+    color: #b9b8b8;
 }
 
 .highlight {
@@ -13,10 +14,14 @@ body {
 }
 
 h1 {
-    color: #042980;
+    color: #0545db;
 }
 
 h3,
 h4 {
-    color: #111B32;
+    color: #436AC4;
+}
+
+code, pre{
+    color: #9b9a9a;
 }
